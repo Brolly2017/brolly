@@ -1,0 +1,71 @@
+/*!
+Theme Name: Holidays Plus
+Theme URI: http://96themes.com/downloads/holidays-plus
+Author: 96 Themes
+Author URI: http://96themes.com/
+Description: Holidays Plus is child theme of Holidays. Holidays is a Fully Responsive Tourism WordPress Theme, developed for the Elementor drag and drop page builder, a perfect choice for a travel agency website, hotels and travel agencies review blog, traveling worldwide and tourism blog, travel agents site, tour operator or tourism company website, etc. Features include Custom Logo, Multi-level Drop-down Menu, Custom Background, Footer Widget Area, Search Engine Optimized, Built-in Slider, Multiple Browsers Support, and Translation-Ready.Holidays  is a  Responsive Blogger Template, it is clean and compatible with many devices, It’s perfect for creating your  travel, tour, news, blog website and no need to coding as it is very customizable.
+Version: 1.0.1
+Template: holidays
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready,custom-header, left-sidebar, right-sidebar, news, blog, education	
+Text Domain: holidays-plus
+*/
+
+ #secondary .widget-title:before {
+    content: '';
+    display: inline-block;
+    right: 0;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 80%;
+    height: 3px;
+    
+}
+
+#secondary .widget-title span{
+    background: #fff;
+    padding: 0 15px 0 0;
+    position: relative;
+    z-index: 99;
+}
+
+#secondary .widget h2.widget-title {
+     border-bottom: 0; 
+    font-size: 25px;
+     margin: 0; 
+     padding: 0; 
+    position: relative;
+}
+#secondary .widget-title span:before, .widget-title span{
+	border-bottom: 0;
+}
+
+.widget_media_video .widget-title,
+.widget_media_gallery .widget-title{
+	    margin-bottom: 10px;
+}
+
+.owl-theme .owl-nav{
+	text-align: right;
+}
+
+.owl-theme .owl-nav [class*=owl-]{
+font-size: 0;
+
+}
+.back-to-top a:hover{
+	color: #fff;
+}
+.elementor-page .site-content{
+	padding: 0;
+}
+.main-navigation ul{
+	text-align: center;
+}
+
+.main-navigation li{
+	display: inline-block;
+	float: none;
+}
