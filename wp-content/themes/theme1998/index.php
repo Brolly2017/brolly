@@ -1,13 +1,28 @@
-<?php get_header(); 
-		
-    if( have_posts() ):
+<?php get_header(); ?>
+
+    <div class="row">
       
-      while( have_posts() ): the_post(); ?>
+      <div class="col-xs-12 col-sm-8">
+
+        <?php 
         
-        <h3><?php the_title(); ?></h3>
-        <p><?php the_content(); ?></p>
-<?php endwhile;
+        if( have_posts() ):
+          
+          while( have_posts() ): the_post(); ?>
+            
+            <h3><a href="<?php get_permalink();?>"> <?php the_title(); ?></a></h3>
+            <p><?php the_content(); ?></p>
+          <?php endwhile;
+          
+        endif;
+            
+        ?>
       
-    endif;
-   
- get_footer(); ?>
+      </div>
+      
+    </div>
+    <div class="footer">
+        <?php echo 'All right reserved &copy 2009 - '.date('Y');?>
+        <?php get_footer(); ?>
+    </div>
+
