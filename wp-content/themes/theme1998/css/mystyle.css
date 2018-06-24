@@ -1,0 +1,23 @@
+html,body{
+    margin:0;
+    color:rgb(223, 13, 23);
+    background:rgb(146, 148, 148);
+    font-family:sans-serif;
+}
+body{
+    padding:20px;
+}
+header{
+    padding: 30px;
+    background:rgb(84, 84, 249);
+    color:rgb(245, 245, 245);
+    border:2px solid rgb(84,84,249);
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer{
+    position  : relative;
+    top       : 318px;
+    text-align: center;
+}
