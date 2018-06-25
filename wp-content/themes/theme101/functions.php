@@ -14,7 +14,7 @@ function theme_setup(){
 
 add_action('init','theme_setup');
 
-add_theme_suport('custom-background');
-add_theme_suport('');
-add_theme_suport();
-add_theme_suport();
+add_theme_support('custom-background');
+add_theme_support('custom-header');
+add_theme_support('post-thumbnails');
+

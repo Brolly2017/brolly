@@ -1,12 +1,12 @@
 body {
     margin:0;
-    color:rgb(140, 135, 135);
+    color:snow;
     background:rgb(130, 210, 213);
     font-family: sans-serif;
     padding:20px;
 }
 
 h1 {
-    color:tomato;
+    color:!inherrit;
     background:slategray;
 }
