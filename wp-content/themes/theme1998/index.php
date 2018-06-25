@@ -22,7 +22,6 @@
       
     </div>
     <div class="footer">
-        <?php echo 'All right reserved &copy 2009 - '.date('Y');?>
         <?php get_footer(); ?>
     </div>
 

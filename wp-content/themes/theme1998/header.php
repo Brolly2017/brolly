@@ -10,6 +10,9 @@
 </head>
 <body>
     <header>
-         <?php bloginfo('name');?>
+        <div class="n60">
+             <?php bloginfo('name');?>
+             <?php wp_nav_menu('primary');?>
+        </div>
     </header>
 
