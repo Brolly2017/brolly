@@ -10,3 +10,18 @@ h1 {
     color:!inherrit;
     background:slategray;
 }
+ul{
+    display:flex;
+    list-style-type: none;
+}
+ul li{
+    float:left;
+    margin:3px;
+    padding:3px; 
+    background:darkgrey;
+    border:1px solid darkgrey;
+    border-radius: 3px;   
+}
+li a{
+    text-decoration: none;
+}
