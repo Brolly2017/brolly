@@ -10,11 +10,11 @@ h1 {
     color:!inherrit;
     background:slategray;
 }
-ul{
+.menu{
     display:flex;
     list-style-type: none;
 }
-ul li{
+.menu > li{
     float:left;
     margin:3px;
     padding:3px; 
