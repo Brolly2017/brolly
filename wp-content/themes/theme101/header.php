@@ -14,5 +14,7 @@
       endif;
 ?>
 <body <?php body_class($theme101_class);?> >
+<div class="container">
+
      <?php wp_nav_menu(array('theme_location'=>'primary')); ?>
      <img src="<?php header_image();?>" height="<?php get_custom_header()->height;?>" width="<?php get_custom_header()->width;?>"> 

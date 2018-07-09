@@ -3,7 +3,7 @@
     <div class="row">
       
       <div class="col-xs-12 col-sm-8">
-
+     
         <?php 
         
         if( have_posts() ):
@@ -22,6 +22,7 @@
       
     </div>
     <div class="footer">
+    <?php get_sidebar();?>
         <?php get_footer(); ?>
     </div>
 

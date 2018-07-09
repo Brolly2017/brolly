@@ -1,6 +1,6 @@
 body {
     margin:0;
-    color:snow;
+    color:black;
     background:rgb(130, 210, 213);
     font-family: sans-serif;
     padding:20px;
@@ -24,4 +24,7 @@ h1 {
 }
 li a{
     text-decoration: none;
+}
+.container{
+    background:aquamarine;
 }
